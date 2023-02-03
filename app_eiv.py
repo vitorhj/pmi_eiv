@@ -75,9 +75,9 @@ else:
 ## PÁGINA CENTRAL - RESULTADO DA VERIFICAÇÃO ##
 
 try:    
-        tabela_inscricao = pd.read_csv('./dados/inscricao_zoneamento.csv, sep=',')
-        tabela_cnaes = pd.read_csv('./dados/cnaes-ibge_uso-atividades.csv, sep=',')
-        tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv, sep=',')
+        tabela_inscricao = pd.read_csv('./dados/inscricao_zoneamento.csv', sep=',')
+        tabela_cnaes = pd.read_csv('./dados/cnaes-ibge_uso-atividades.csv', sep=',')
+        tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv', sep=',')
                                    
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         tabela_cnaes_cnpj                              
