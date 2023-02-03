@@ -31,6 +31,16 @@ inscricao_input = st.sidebar.text_input('Inscrição Imobiliária:','',key="inpu
 cnpj_input = st.sidebar.text_input('CTRL + V do CNPJ:','',key="inputbox_cnpj")
 areatotal_input = st.sidebar.text_input('Área total (m²):','',key="inputbox_areatotal")
 areaconstruida_input = st.sidebar.text_input('Área construída (m²):','',key="inputbox_areaconstruida")
+#_____________________________________________________________________________________________________________________
+
+## BOTÃO LIMPAR ##
+
+def clear_text():
+    st.session_state["inputbox1"] = ""
+    st.session_state["inputbox2"] = ""
+    st.session_state["inputbox3"] = ""
+    st.session_state["inputbox4"] = ""
+st.sidebar.button("Limpar", on_click=clear_text)
 
 #______________________________________________________________________________________________________________________
 
@@ -74,6 +84,11 @@ else:
 
 ## PÁGINA CENTRAL - RESULTADO DA VERIFICAÇÃO ##
 
+st.title('PMI - EIV')
+if (inscricao_input or cnpj_input) == '':
+        st.markdown('Aplicação web destinada à verificação da necessidade de estudo de impacto de vizinhança (EIV) em empresas')
+        st.markdown('Copie e cole a inscrição imobiliária e cartão CNPJ da empresa.')
+     
 try:    
         tabela_inscricao = pd.read_csv('./dados/inscricao_zoneamento.csv', sep=',')
         tabela_cnaes = pd.read_csv('./dados/cnaes-ibge_uso-atividades.csv', sep=',')
@@ -86,7 +101,9 @@ try:
         #nova_tabela3.drop([0], axis=1, inplace=True)
         #nova_tabela
         
-        st.text(str(inscricao_input[1:15]))
+        #15 primeiros dígitos da inscrição imobiliária
+        tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
+        tabela_zona = tabela_inscricao.merge(inscricao_input[1:15],left_on='inscricao', right_on=0)
         
 except:
   pass
