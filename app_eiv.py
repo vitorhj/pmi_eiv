@@ -84,7 +84,9 @@ try:
         
         #nova_tabela3=tabela_risco.merge(cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         #nova_tabela3.drop([0], axis=1, inplace=True)
-        #nova_tabela        
+        #nova_tabela
+        
+        print(inscricao_input[1:15])
         
 except:
   pass
