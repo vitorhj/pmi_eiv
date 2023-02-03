@@ -86,7 +86,7 @@ try:
         #nova_tabela3.drop([0], axis=1, inplace=True)
         #nova_tabela
         
-        print(inscricao_input[1:15])
+        print('olá)
         
 except:
   pass
