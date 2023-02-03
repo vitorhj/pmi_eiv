@@ -86,7 +86,7 @@ try:
         #nova_tabela3.drop([0], axis=1, inplace=True)
         #nova_tabela
         
-        st.text(inscricao_input)
+        st.text(str(inscricao_input))
         
 except:
   pass
