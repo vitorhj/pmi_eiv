@@ -110,8 +110,6 @@ try:
         inscricao15 = pd.DataFrame(inscricao15)
         inscricao15
      
-          
-        dfPaises.loc[dfPaises['ano'] == 2002].head(3)
         tabela_filtrada = tabela_inscricao.loc[tabela_inscricao['inscricao'] == inscricao15]
         tabela_filtrada
         
