@@ -96,7 +96,7 @@ try:
         tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv', sep=',')
         
         inscricao15 = inscricao_input[0:15]
-          inscricao15
+        inscricao15
         
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         tabela_cnaes_cnpj
