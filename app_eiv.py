@@ -107,28 +107,19 @@ try:
         inscricao15
         tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao==inscricao15]
         tabela_filtrada
-        st.text('zoneamento em texto')
-        tabela_filtrada['nome'].to_string()
-          
+        
+        st.subheader('Anexo pelo zoneamento:')
+        tabela_anexoeiv = tabela_anexoeiv[tabela_anexoeiv.ZONEAMENTO==tabela_filtrada.nome]
+        
         st.subheader('CNAE e classificação de uso:')
         tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         tabela_parametros_uso.drop([0], axis=1, inplace=True)
         tabela_parametros_uso
         
-        tabela_inscricao
         tabela_anexoeiv
         
 
-     
-
-        #inscricao15 = pd.DataFrame(inscricao15)
-        #inscricao15
-     
-
-        
-        #15 primeiros dígitos da inscrição imobiliária
-        #tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
-        #tabela_zona = tabela_inscricao.merge(inscricao_input[1:15],left_on='inscricao', right_on=0)
+   
         
 except:
   pass
