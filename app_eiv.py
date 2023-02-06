@@ -115,12 +115,10 @@ try:
         st.subheader('Verificação EIV:')
         tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
         tabela_anexoeiv
-        
-
+        st.markdown('Ac = Área construída')
+        st.markdown('At = Área total')
+        st.markdown('UH = Unidades habitacionais')
        
-        
-
-   
         
 except:
   pass
