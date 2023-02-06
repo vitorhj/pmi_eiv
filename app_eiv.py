@@ -99,15 +99,15 @@ try:
         tabela_cnaes = pd.read_csv('./dados/cnaes-ibge_uso-atividades.csv', sep=',')
         tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv', sep=',')
         
-        #inscricao15 = pd.DataFrame(inscricao_input[0:15])
-        #inscricao15
-        
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         tabela_cnaes_cnpj
         
         tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         tabela_parametros_uso.drop([0], axis=1, inplace=True)
         tabela_parametros_uso
+          
+        inscricao15 = pd.DataFrame(inscricao_input[0:15])
+        inscricao15
         
         #15 primeiros dígitos da inscrição imobiliária
         #tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
