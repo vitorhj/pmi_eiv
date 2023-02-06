@@ -35,12 +35,12 @@ areaconstruida_input = st.sidebar.text_input('Área construída (m²):','',key="
 
 ## BOTÃO LIMPAR ##
 
-#def clear_text():
-    #st.session_state["inputbox_inscricao"] = ""
-    #st.session_state["inputbox_cnpj"] = ""
-    #st.session_state["inputbox_areatotal"] = ""
-    #st.session_state["inputbox_areaconstruida"] = ""
-#st.sidebar.button("Limpar", on_click=clear_text)
+def clear_text():
+    st.session_state["inscricao_input"] = ""
+    st.session_state["cnpj_input"] = ""
+    st.session_state["areatotal_input"] = ""
+    st.session_state["areaconstruida_input"] = ""
+st.sidebar.button("Limpar", on_click=clear_text)
 
 #______________________________________________________________________________________________________________________
 
