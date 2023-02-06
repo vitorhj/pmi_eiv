@@ -28,10 +28,10 @@ st.sidebar.image(logo_image, width=200)
 st.sidebar.subheader('Verificação EIV:')
 
 inscricao_input = st.sidebar.text_input('Inscrição Imobiliária:','',key="inputbox_inscricao")
-inscricao_input[0:15]
 cnpj_input = st.sidebar.text_input('CTRL + V do CNPJ:','',key="inputbox_cnpj")
 areatotal_input = st.sidebar.text_input('Área total (m²):','',key="inputbox_areatotal")
 areaconstruida_input = st.sidebar.text_input('Área construída (m²):','',key="inputbox_areaconstruida")
+
 #_____________________________________________________________________________________________________________________
 
 ## BOTÃO LIMPAR ##
@@ -94,7 +94,10 @@ try:
         tabela_inscricao = pd.read_csv('./dados/inscricao_zoneamento.csv', sep=',')
         tabela_cnaes = pd.read_csv('./dados/cnaes-ibge_uso-atividades.csv', sep=',')
         tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv', sep=',')
-                                   
+        
+        inscricao15 = inscricao_input[0:15]
+          inscricao15
+        
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         tabela_cnaes_cnpj
         
