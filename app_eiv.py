@@ -107,7 +107,7 @@ try:
         inscricao15
         tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao==inscricao15]
         tabela_filtrada
-        str(tabela_filtrada.nome)
+        tabela_filtrada.nome.to_string()
           
         st.subheader('CNAE e classificação de uso:')
         tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
