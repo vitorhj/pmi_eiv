@@ -111,10 +111,9 @@ try:
         inscricao15
      
           
-        df_zoneamento = tabela_inscricao.loc[inscricao15]
-        df_zoneamento
-        
-        tabela_inscricao
+        dfPaises.loc[dfPaises['ano'] == 2002].head(3)
+        tabela_filtrada = tabela_inscricao.loc[tabela_inscricao['inscricao'] == inscricao15]
+        tabela_filtrada
         
         #15 primeiros dígitos da inscrição imobiliária
         #tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
