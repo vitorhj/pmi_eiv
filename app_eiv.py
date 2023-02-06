@@ -105,9 +105,9 @@ try:
         tabela_parametros_uso
           
         inscricao15 = inscricao_input[0:15]
-        inscricao15
+        inscricao15=str(inscricao15)
           
-        df_zoneamento = tabela_inscricao['inscricao'] == inscricao15
+        df_zoneamento = tabela_inscricao.loc[inscricao15]
         df_zoneamento
         
         tabela_inscricao
