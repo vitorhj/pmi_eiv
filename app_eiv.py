@@ -106,15 +106,17 @@ try:
         inscricao15=str(inscricao15)
         tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao==inscricao15]
         tabela_filtrada
-        
-        st.subheader('Anexo EIV x Zoneamento da empresa:')
+          
+        st.subheader('Classificação do uso dos CNAEs:')
+        tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
+        tabela_parametros_uso.drop([0], axis=1, inplace=True)
+        tabela_parametros_uso        
+ 
+        st.subheader('Verificação EIV:')
         tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
         tabela_anexoeiv
         
-        st.subheader('CNAE e classificação de uso:')
-        tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
-        tabela_parametros_uso.drop([0], axis=1, inplace=True)
-        tabela_parametros_uso
+
        
         
 
