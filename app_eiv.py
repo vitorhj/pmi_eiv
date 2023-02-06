@@ -104,7 +104,6 @@ try:
         st.subheader('Dados imobiliários:')         
         inscricao15 = inscricao_input[0:15]
         inscricao15=str(inscricao15)
-        inscricao15
         tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao==inscricao15]
         tabela_filtrada
         
