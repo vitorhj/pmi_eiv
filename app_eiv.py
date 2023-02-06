@@ -110,7 +110,7 @@ try:
         inscricao15 = pd.DataFrame(inscricao15)
         inscricao15
      
-        tabela_filtrada = tabela_inscricao.loc[tabela_inscricao['inscricao'] == inscricao15]
+        tabela_filtrada = tabela_inscricao.loc[tabela_inscricao['inscricao'] == '003.149.02.0720']
         tabela_filtrada
         
         #15 primeiros dígitos da inscrição imobiliária
