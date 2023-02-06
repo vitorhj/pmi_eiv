@@ -110,6 +110,8 @@ try:
         df_zoneamento = tabela_inscricao['inscricao'] == inscricao15
         df_zoneamento
         
+        tabela_inscricao
+        
         #15 primeiros dígitos da inscrição imobiliária
         #tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
         #tabela_zona = tabela_inscricao.merge(inscricao_input[1:15],left_on='inscricao', right_on=0)
