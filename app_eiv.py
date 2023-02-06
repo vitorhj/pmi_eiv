@@ -96,7 +96,8 @@ try:
         tabela_cnaes = pd.read_csv('./dados/cnaes-ibge_uso-atividades.csv', sep=',')
         tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv', sep=',')
                                    
-        tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)                             
+        tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
+        tabela_cnaes_cnpj
         
         #nova_tabela3=tabela_risco.merge(cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         #nova_tabela3.drop([0], axis=1, inplace=True)
