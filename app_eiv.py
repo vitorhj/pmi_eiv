@@ -29,8 +29,6 @@ st.sidebar.subheader('Verificação EIV:')
 
 inscricao_input = st.sidebar.text_input('Inscrição Imobiliária:','',key="inputbox_inscricao")
 cnpj_input = st.sidebar.text_input('CTRL + V do CNPJ:','',key="inputbox_cnpj")
-areatotal_input = st.sidebar.text_input('Área total (m²):','',key="inputbox_areatotal")
-areaconstruida_input = st.sidebar.text_input('Área construída (m²):','',key="inputbox_areaconstruida")
 
 #_____________________________________________________________________________________________________________________
 
@@ -102,6 +100,7 @@ try:
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         tabela_cnaes_cnpj
         
+        st.subheader('CNAE e classificação de uso:')
         tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         tabela_parametros_uso.drop([0], axis=1, inplace=True)
         tabela_parametros_uso
