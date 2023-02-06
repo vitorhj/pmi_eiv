@@ -90,6 +90,9 @@ if (inscricao_input or cnpj_input) == '':
         st.markdown('Aplicação web destinada à verificação da necessidade de estudo de impacto de vizinhança (EIV) em empresas.')
         st.markdown('<<<< Copie e cole a inscrição imobiliária e cartão CNPJ da empresa nos campos da barra lateral.')
         st.markdown('Tabela com os parâmetros para verificação da EIV:')
+        st.markdown('Anexo EIV: '+str('https://docs.google.com/spreadsheets/d/1vwx3hPDPmSIU-N1KE2iXfstt-ZH1jGQhhz0ZPNrA-vY/edit#gid=0'))
+        st.markdown('Inscrição e Zoneamento: '+str('https://docs.google.com/spreadsheets/d/1cMTb_8sICzDvanbFVCDvez-S4McgoLaVvbAQeDMSidY/edit#gid=0'))
+        st.markdown('CNAES e usos: '+str('https://docs.google.com/spreadsheets/d/1FhBwkTrFslht9ORzra1WcI1-BfqIw5EBTZjWzeitzTw/edit#gid=200488863'))
      
 try:    
         tabela_inscricao = pd.read_csv('./dados/inscricao_zoneamento.csv', sep=',')
