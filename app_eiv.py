@@ -98,7 +98,6 @@ try:
         tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv', sep=',')
         
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
-        tabela_cnaes_cnpj
         
         st.subheader('CNAE e classificação de uso:')
         tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
