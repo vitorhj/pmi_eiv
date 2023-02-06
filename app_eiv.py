@@ -105,6 +105,7 @@ try:
         tabela_parametros_uso
           
         inscricao = inscricao_input[0:15]
+        inscricao
         inscricao15 = pd.DataFrame(inscricao)
         inscricao15
         
