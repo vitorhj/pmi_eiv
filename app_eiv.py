@@ -106,15 +106,17 @@ try:
         
         tabela_inscricao
         tabela_anexoeiv
+        
+        st.subheader('Cruzamento de tabelas:') 
      
         inscricao15 = inscricao_input[0:15]
         inscricao15=str(inscricao15)
         inscricao15
-        inscricao15 = pd.DataFrame(inscricao15)
-        inscricao15
+        #inscricao15 = pd.DataFrame(inscricao15)
+        #inscricao15
      
-        tabela_filtrada = tabela_inscricao.loc[tabela_inscricao['inscricao']=='003.149.02.0720']
-        tabela_filtrada.head()
+        tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao=='003.149.02.0720']
+        tabela_filtrada
         
         #15 primeiros dígitos da inscrição imobiliária
         #tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
