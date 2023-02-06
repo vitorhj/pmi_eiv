@@ -101,7 +101,7 @@ try:
         
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         
-        st.subheader('Dados:')         
+        st.subheader('Dados imobiliários:')         
         inscricao15 = inscricao_input[0:15]
         inscricao15=str(inscricao15)
         inscricao15
@@ -116,8 +116,7 @@ try:
         tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         tabela_parametros_uso.drop([0], axis=1, inplace=True)
         tabela_parametros_uso
-        
-        tabela_anexoeiv
+       
         
 
    
