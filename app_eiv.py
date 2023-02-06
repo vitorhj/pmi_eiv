@@ -99,6 +99,10 @@ try:
         
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         
+        st.subheader('Dados:')         
+        tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao==inscricao15]
+        tabela_filtrada
+          
         st.subheader('CNAE e classificação de uso:')
         tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         tabela_parametros_uso.drop([0], axis=1, inplace=True)
@@ -107,7 +111,7 @@ try:
         tabela_inscricao
         tabela_anexoeiv
         
-        st.subheader('Cruzamento de tabelas:') 
+
      
         inscricao15 = inscricao_input[0:15]
         inscricao15=str(inscricao15)
@@ -115,8 +119,7 @@ try:
         #inscricao15 = pd.DataFrame(inscricao15)
         #inscricao15
      
-        tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao==inscricao15]
-        tabela_filtrada
+
         
         #15 primeiros dígitos da inscrição imobiliária
         #tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
