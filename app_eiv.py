@@ -27,18 +27,16 @@ logo_image = ('./dados/logo.png')
 st.sidebar.image(logo_image, width=200)
 st.sidebar.subheader('Verificação EIV:')
 
-inscricao_input = st.sidebar.text_input('Inscrição Imobiliária:','',key="inputbox_inscricao")
-cnpj_input = st.sidebar.text_input('CTRL + V do CNPJ:','',key="inputbox_cnpj")
+inscricao_input = st.sidebar.text_input('Inscrição Imobiliária:','',key="inputbox1")
+cnpj_input = st.sidebar.text_input('CTRL + V do CNPJ:','',key="inputbox2")
 
 #_____________________________________________________________________________________________________________________
 
 ## BOTÃO LIMPAR ##
 
 def clear_text():
-    st.session_state["inscricao_input"] = ""
-    st.session_state["cnpj_input"] = ""
-    st.session_state["areatotal_input"] = ""
-    st.session_state["areaconstruida_input"] = ""
+    st.session_state["inputbox1"] = ""
+    st.session_state["inputbox2"] = ""
 st.sidebar.button("Limpar", on_click=clear_text)
 
 #______________________________________________________________________________________________________________________
