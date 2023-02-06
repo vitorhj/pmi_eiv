@@ -28,7 +28,7 @@ st.sidebar.image(logo_image, width=200)
 st.sidebar.subheader('Verificação EIV:')
 
 inscricao_input = st.sidebar.text_input('Inscrição Imobiliária:','',key="inputbox_inscricao")
-inscricao_input[1:15]
+inscricao_input[0:15]
 cnpj_input = st.sidebar.text_input('CTRL + V do CNPJ:','',key="inputbox_cnpj")
 areatotal_input = st.sidebar.text_input('Área total (m²):','',key="inputbox_areatotal")
 areaconstruida_input = st.sidebar.text_input('Área construída (m²):','',key="inputbox_areaconstruida")
