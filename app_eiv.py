@@ -52,6 +52,7 @@ if cnpj_input != "":
     numero_cnpj_input = re.findall(r'\d\d.\d\d\d.\d\d\d/\d\d\d\d-\d\d', cnpj_input)
 
     texto_cnpj_split = re.sub(' +', ' ',cnpj_input).split(' ')
+    texto_cnpj_split
 
     #Separa o cartão cnpj em elementos separado por espaços para extração de textos específicos
     itens_analise=['EMPRESARIAL','TÍTULO', 'LOGRADOURO','NÚMERO']
@@ -86,7 +87,7 @@ else:
 
 st.title('PMI - EIV')
 if (inscricao_input or cnpj_input) == '':
-        st.markdown('Aplicação web destinada à verificação da necessidade de estudo de impacto de vizinhança (EIV) em empresas')
+        st.markdown('Aplicação web destinada à verificação da necessidade de estudo de impacto de vizinhança (EIV) em empresas.')
         st.markdown('<<<< Copie e cole a inscrição imobiliária e cartão CNPJ da empresa nos campos da barra lateral.')
      
 try:    
@@ -94,8 +95,7 @@ try:
         tabela_cnaes = pd.read_csv('./dados/cnaes-ibge_uso-atividades.csv', sep=',')
         tabela_anexoeiv = pd.read_csv('./dados/anexo_eiv.csv', sep=',')
                                    
-        tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
-        print =(tabela_cnaes_cnpj)                             
+        tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)                             
         
         #nova_tabela3=tabela_risco.merge(cnaes_cnpj,left_on='CÓDIGO', right_on=0)
         #nova_tabela3.drop([0], axis=1, inplace=True)
