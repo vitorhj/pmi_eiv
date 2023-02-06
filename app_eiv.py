@@ -107,6 +107,7 @@ try:
         inscricao15
         tabela_filtrada = tabela_inscricao[tabela_inscricao.inscricao==inscricao15]
         tabela_filtrada
+        st.text('zoneamento em texto')
         tabela_filtrada['nome'].to_string()
           
         st.subheader('CNAE e classificação de uso:')
