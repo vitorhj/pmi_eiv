@@ -48,12 +48,10 @@ st.sidebar.button("Limpar", on_click=clear_text)
 
 if cnpj_input != "":
     cnaes_cnpj_input = re.findall(r'\d\d.\d\d-\d-\d\d', cnpj_input)
-    cnaes_cnpj_input
     cnae_principal_cnpj_input=cnaes_cnpj_input[0]
     numero_cnpj_input = re.findall(r'\d\d.\d\d\d.\d\d\d/\d\d\d\d-\d\d', cnpj_input)
 
     texto_cnpj_split = re.sub(' +', ' ',cnpj_input).split(' ')
-    texto_cnpj_split
 
     #Separa o cartão cnpj em elementos separado por espaços para extração de textos específicos
     itens_analise=['EMPRESARIAL','TÍTULO', 'LOGRADOURO','NÚMERO']
