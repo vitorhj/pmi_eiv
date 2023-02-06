@@ -104,7 +104,8 @@ try:
         tabela_parametros_uso.drop([0], axis=1, inplace=True)
         tabela_parametros_uso
           
-        inscricao15 = pd.DataFrame(inscricao_input[0:15])
+        inscricao = inscricao_input[0:15]
+        inscricao15 = pd.DataFrame(inscricao)
         inscricao15
         
         #15 primeiros dígitos da inscrição imobiliária
