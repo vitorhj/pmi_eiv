@@ -89,6 +89,7 @@ st.title('PMI - EIV')
 if (inscricao_input or cnpj_input) == '':
         st.markdown('Aplicação web destinada à verificação da necessidade de estudo de impacto de vizinhança (EIV) em empresas.')
         st.markdown('<<<< Copie e cole a inscrição imobiliária e cartão CNPJ da empresa nos campos da barra lateral.')
+        st.markdown('Tabela com os parâmetros para verificação da EIV:')
      
 try:    
         tabela_inscricao = pd.read_csv('./dados/inscricao_zoneamento.csv', sep=',')
