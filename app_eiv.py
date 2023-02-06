@@ -88,7 +88,6 @@ else:
 st.title('PMI - EIV')
 if (inscricao_input or cnpj_input) == '':
         st.markdown('Aplicação web destinada à verificação da necessidade de estudo de impacto de vizinhança (EIV) em empresas.')
-        st.markdown('<<<< Copie e cole a inscrição imobiliária e cartão CNPJ da empresa nos campos da barra lateral.')
 
         st.subheader('Tabelas com os parâmetros adotados na verificação da necessidade de EIV:')
         st.markdown('Anexo EIV: '+str('https://docs.google.com/spreadsheets/d/1vwx3hPDPmSIU-N1KE2iXfstt-ZH1jGQhhz0ZPNrA-vY/edit#gid=0'))
