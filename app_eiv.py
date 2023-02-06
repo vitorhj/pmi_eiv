@@ -115,7 +115,7 @@ try:
         tabela_verificacao = tabela_anexoeiv.merge(tabela_parametros_uso,left_on='USO/ ATIVIDADE', right_on='ATIVIDADE/ USO')
         tabela_verificacao.loc[::,['ITEM', 'USO/ ATIVIDADE', 'ZONEAMENTO', 'Ac > (m²)','At > (m²)', 'UH', 'OBSERVAÇÃO']]
                     
-        st.subheader('Regras EIV para o zoneamento:')
+        st.subheader('Todas as regras de EIV para o zoneamento:')
         tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
         tabela_anexoeiv.loc[::,['ITEM', 'USO/ ATIVIDADE', 'ZONEAMENTO', 'Ac > (m²)','At > (m²)', 'UH', 'OBSERVAÇÃO']]
      
