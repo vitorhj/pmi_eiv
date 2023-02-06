@@ -111,8 +111,10 @@ try:
         tabela_parametros_uso        
  
         st.subheader('Verificação EIV:')
+     
+        st.subheader('Regras EIV para o zoneamento:')
         tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
-        tabela_anexoeiv
+        tabela_anexoeiv[0:7]
         st.markdown('Ac = Área construída')
         st.markdown('At = Área total')
         st.markdown('UH = Unidades habitacionais')
