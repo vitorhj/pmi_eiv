@@ -111,11 +111,8 @@ try:
         tabela_parametros_uso        
  
         st.subheader('Verificação EIV:')
-        tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
-        tabela_anexoeiv
-        tabela_filtrada
-          
-        tabela_verificacao = tabela_anexoeiv.merge(tabela_filtrada,left_on='USO/ ATIVIDADE', right_on='ATIVIDADE/ USO')
+        tabela_anexoeiv = tabela_anexoeiv.merge(tabela_parametros_uso,left_on='ZONEAMENTO', right_on='nome')          
+        tabela_verificacao = tabela_anexoeiv.merge(tabela_parametros_uso,left_on='USO/ ATIVIDADE', right_on='ATIVIDADE/ USO')
         tabela_verificacao
           
           
