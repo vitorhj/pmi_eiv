@@ -106,6 +106,7 @@ try:
           
         inscricao15 = inscricao_input[0:15]
         inscricao15=str(inscricao15)
+        inscricao15
         inscricao15 = pd.DataFrame(inscricao15)
         inscricao15
      
