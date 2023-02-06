@@ -97,9 +97,9 @@ try:
         tabela_cnaes_cnpj = pd.DataFrame(cnaes_cnpj_input)
         tabela_cnaes_cnpj
         
-        #nova_tabela3=tabela_risco.merge(cnaes_cnpj,left_on='CÓDIGO', right_on=0)
-        #nova_tabela3.drop([0], axis=1, inplace=True)
-        #nova_tabela
+        tabela_parametros_uso = tabela_cnaes.merge(tabela_cnaes_cnpj,left_on='CÓDIGO', right_on=0)
+        tabela_parametros_uso.drop([0], axis=1, inplace=True)
+        tabela_parametros_uso
         
         #15 primeiros dígitos da inscrição imobiliária
         #tabela_inscricao = pd.DataFrame(inscricao_input[1:15])
