@@ -120,6 +120,7 @@ try:
         #tabela_verificacao.ITEM.unique()
         col_area = tabela_verificacao.loc[::,['Ac > (m²)']]
         col_area
+        col_area.min()
      
         st.subheader('Todas as regras de EIV para o zoneamento:')
         tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
