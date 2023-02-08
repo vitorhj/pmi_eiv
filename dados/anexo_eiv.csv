@@ -176,14 +176,13 @@ ITEM,USO/ ATIVIDADE,ZONEAMENTO,Ac > (m²),At > (m²),UH,OBSERVAÇÃO
 3.1,Industrial,ZSI,30000,-,-,"Área construída maior para ZSI, ZPN, ZAP e ZPI em relação as demais zonas"
 3.1,Industrial,ZPN,30000,-,-,"Área construída maior para ZSI, ZPN, ZAP e ZPI em relação as demais zonas"
 3.1,Industrial,ZAP,30000,-,-,"Área construída maior para ZSI, ZPN, ZAP e ZPI em relação as demais zonas"
-3.1,Industrial,ZPI,30000,-,-,"Área construída maior para ZSI, ZPN, ZAP e ZPI em relação as demais zonas"
+3.1,Industrial,ZIP,30000,-,-,"Área construída maior para ZSI, ZPN, ZAP e ZPI em relação as demais zonas"
 3.2,Industrial,ZU 3,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZPA 3,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZR 1,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZPA 1,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZTRU,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZTRA,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
-3.2,Industrial,ZIP,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZEA,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZU 4,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
 3.2,Industrial,ZPA 2,10000,-,-,"Área construída reduzida para 10.000m² para zonas diferentes de ZSI, ZPN, ZAP e ZPI."
@@ -350,3 +349,179 @@ ITEM,USO/ ATIVIDADE,ZONEAMENTO,Ac > (m²),At > (m²),UH,OBSERVAÇÃO
 13.2,"Depósito, armazéns, pátio de veículos, transportadoras e afins",ZIT,7500,15000,-,Deve atender pelo menos um dos requisitos
 13.2,"Depósito, armazéns, pátio de veículos, transportadoras e afins",ZU 5,7500,15000,-,Deve atender pelo menos um dos requisitos
 13.2,"Depósito, armazéns, pátio de veículos, transportadoras e afins",ZC 1,7500,15000,-,Deve atender pelo menos um dos requisitos
+14,"Terminais urbanos, interurbanos de qualquer modal",ZSI,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZPN,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZAP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZIP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZU 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZPA 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZR 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZPA 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZTRU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZTRA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZEA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZU 4,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZPA 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZC 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZU 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZR 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZEU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZR 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZU 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZIT,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZU 5,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+14,"Terminais urbanos, interurbanos de qualquer modal",ZC 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZSI,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZPN,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZAP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZIP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZU 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZPA 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZR 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZPA 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZTRU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZTRA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZEA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZU 4,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZPA 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZC 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZU 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZR 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZEU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZR 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZU 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZIT,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZU 5,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+15,Penitenciárias e presídios,ZC 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZSI,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZPN,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZAP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZIP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZU 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZPA 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZR 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZPA 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZTRU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZTRA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZEA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZU 4,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZPA 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZC 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZU 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZR 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZEU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZR 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZU 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZIT,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZU 5,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+16,Parques de diversão (Não itinerantes),ZC 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZU 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZPA 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZR 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZPA 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZTRU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZPN,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZTRA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZIP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZEA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZU 4,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZPA 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZC 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZU 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZSI,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZAP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZR 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZEU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZR 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZU 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZIT,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZU 5,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+19,Cemitério e crematório,ZC 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+17,Condomínio horizontal,ZU 3,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZPA 3,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZR 1,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZPA 1,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZTRU,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZPN,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZTRA,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZIP,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZEA,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZU 4,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZPA 2,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZC 2,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZU 2,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZSI,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZAP,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZR 3,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZEU,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZR 2,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZU 1,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZIT,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZU 5,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+17,Condomínio horizontal,ZC 1,-,-,150,"Deve ter EIV quando o condomínio tiver mais que 150 unidades habitacionais, independentemente da zona"
+20,Estação de tratamento de água e esgoto,ZU 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZPA 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZR 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZPA 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZTRU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZPN,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZTRA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZIP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZEA,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZU 4,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZPA 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZC 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZU 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZSI,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZAP,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZR 3,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZEU,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZR 2,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZU 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZIT,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZU 5,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+20,Estação de tratamento de água e esgoto,ZC 1,Qualquer,Qualquer,-,Deve ter EIV para qualquer área em qualquer zoneamento
+23.1,"Portos, terminais portuários e portos secos",ZSI,30000,-,-,-
+23.1,"Portos, terminais portuários e portos secos",ZPN,30000,-,-,-
+23.1,"Portos, terminais portuários e portos secos",ZAP,30000,-,-,-
+23.1,"Portos, terminais portuários e portos secos",ZIP,30000,-,-,-
+23.2,"Portos, terminais portuários e portos secos",ZU 3,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZPA 3,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZR 1,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZPA 1,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZTRU,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZTRA,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZEA,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZU 4,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZPA 2,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZC 2,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZU 2,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZR 3,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZEU,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZR 2,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZU 1,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZIT,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZU 5,-,5000,-,-
+23.2,"Portos, terminais portuários e portos secos",ZC 1,-,5000,-,-
+23.1,Estaleiros ou marinas,ZSI,30000,-,-,-
+23.1,Estaleiros ou marinas,ZPN,30000,-,-,-
+23.1,Estaleiros ou marinas,ZAP,30000,-,-,-
+23.1,Estaleiros ou marinas,ZIP,30000,-,-,-
+23.1,Estaleiros ou marinas,ZU 3,-,5000,-,-
+23.1,Estaleiros ou marinas,ZPA 3,-,5000,-,-
+23.1,Estaleiros ou marinas,ZR 1,-,5000,-,-
+23.1,Estaleiros ou marinas,ZPA 1,-,5000,-,-
+23.1,Estaleiros ou marinas,ZTRU,-,5000,-,-
+23.1,Estaleiros ou marinas,ZTRA,-,5000,-,-
+23.1,Estaleiros ou marinas,ZEA,-,5000,-,-
+23.1,Estaleiros ou marinas,ZU 4,-,5000,-,-
+23.1,Estaleiros ou marinas,ZPA 2,-,5000,-,-
+23.1,Estaleiros ou marinas,ZC 2,-,5000,-,-
+23.1,Estaleiros ou marinas,ZU 2,-,5000,-,-
+23.1,Estaleiros ou marinas,ZR 3,-,5000,-,-
+23.1,Estaleiros ou marinas,ZEU,-,5000,-,-
+23.1,Estaleiros ou marinas,ZR 2,-,5000,-,-
+23.1,Estaleiros ou marinas,ZU 1,-,5000,-,-
+23.1,Estaleiros ou marinas,ZIT,-,5000,-,-
+23.1,Estaleiros ou marinas,ZU 5,-,5000,-,-
+23.1,Estaleiros ou marinas,ZC 1,-,5000,-,-
