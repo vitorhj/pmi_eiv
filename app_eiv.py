@@ -118,6 +118,8 @@ try:
         tabela_verificacao=tabela_verificacao.loc[::,['ITEM', 'USO/ ATIVIDADE', 'ZONEAMENTO', 'Ac > (m²)','At > (m²)', 'UH', 'OBSERVAÇÃO']]
         tabela_verificacao
         tabela_verificacao.ITEM.unique()
+        col_area = tabela_verificacao.loc['Ac > (m²)']
+        col_area
      
         st.subheader('Todas as regras de EIV para o zoneamento:')
         tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
