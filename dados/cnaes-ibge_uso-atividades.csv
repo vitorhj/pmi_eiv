@@ -177,7 +177,7 @@ CÓDIGO,DENOMINAÇÃO ATIVIDADE,ATIVIDADE/ USO
 10.12-1-04,Matadouro - abate de suínos sob contrato,Industrial
 10.13-9-01,Fabricação de produtos de carne,Industrial
 10.13-9-02,Preparação de subprodutos do abate,Industrial
-10.20-1-01,"Preservação de peixes, crustáceos e moluscos",Agropecuária
+10.20-1-01,"Preservação de peixes, crustáceos e moluscos",Industrial
 10.20-1-02,"Fabricação de conservas de peixes, crustáceos e moluscos",Industrial
 10.31-7-00,Fabricação de conservas de frutas,Industrial
 10.32-5-01,Fabricação de conservas de palmito,Industrial
@@ -586,14 +586,14 @@ CÓDIGO,DENOMINAÇÃO ATIVIDADE,ATIVIDADE/ USO
 33.21-0-00,Instalação de máquinas e equipamentos industriais,Comércio e serviços
 33.29-5-01,Serviços de montagem de móveis de qualquer material,Comércio e serviços
 33.29-5-99,Instalação de outros equipamentos não especificados anteriormente,Comércio e serviços
-35.11-5-01,Geração de energia elétrica,
+35.11-5-01,Geração de energia elétrica,Comércio e serviços
 35.11-5-02,Atividades de coordenação e controle da operação da geração e transmissão de energia elétrica,Comércio e serviços
-35.12-3-00,Transmissão de energia elétrica,
+35.12-3-00,Transmissão de energia elétrica,Comércio e serviços
 35.13-1-00,Comércio atacadista de energia elétrica,Comércio e serviços
-35.14-0-00,Distribuição de energia elétrica,
+35.14-0-00,Distribuição de energia elétrica,Comércio e serviços
 35.20-4-01,Produção de gás; processamento de gás natural,Industrial
-35.20-4-02,Distribuição de combustíveis gasosos por redes urbanas,
-35.30-1-00,"Produção e distribuição de vapor, água quente e ar condicionado",
+35.20-4-02,Distribuição de combustíveis gasosos por redes urbanas,Postos de combustível
+35.30-1-00,"Produção e distribuição de vapor, água quente e ar condicionado",Comércio e serviços
 36.00-6-01,"Captação, tratamento e distribuição de água",Estação de tratamento de água e esgoto
 36.00-6-02,Distribuição de água por caminhões,Comércio e serviços
 37.01-1-00,Gestão de redes de esgoto,Estação de tratamento de água e esgoto
@@ -881,56 +881,56 @@ CÓDIGO,DENOMINAÇÃO ATIVIDADE,ATIVIDADE/ USO
 47.89-0-08,Comércio varejista de artigos fotográficos e para filmagem,Comércio e serviços
 47.89-0-09,Comércio varejista de armas e munições,Comércio e serviços
 47.89-0-99,Comércio varejista de outros produtos não especificados anteriormente,Comércio e serviços
-49.11-6-00,Transporte ferroviário de carga,
-49.12-4-01,Transporte ferroviário de passageiros intermunicipal e interestadual,
-49.12-4-02,Transporte ferroviário de passageiros municipal e em região metropolitana,
-49.12-4-03,Transporte metroviário,
-49.21-3-01,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal",
-49.21-3-02,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal em região metropolitana",
-49.22-1-01,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, exceto em região metropolitana",
-49.22-1-02,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, interestadual",
-49.22-1-03,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, internacional",
-49.23-0-01,Serviço de táxi,
-49.23-0-02,Serviço de transporte de passageiros - locação de automóveis com motorista,
+49.11-6-00,Transporte ferroviário de carga,Outro uso não especificado
+49.12-4-01,Transporte ferroviário de passageiros intermunicipal e interestadual,Outro uso não especificado
+49.12-4-02,Transporte ferroviário de passageiros municipal e em região metropolitana,Outro uso não especificado
+49.12-4-03,Transporte metroviário,Outro uso não especificado
+49.21-3-01,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal",Comércio e serviços
+49.21-3-02,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal em região metropolitana",Comércio e serviços
+49.22-1-01,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, exceto em região metropolitana",Comércio e serviços
+49.22-1-02,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, interestadual",Comércio e serviços
+49.22-1-03,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, internacional",Comércio e serviços
+49.23-0-01,Serviço de táxi,Comércio e serviços
+49.23-0-02,Serviço de transporte de passageiros - locação de automóveis com motorista,Comércio e serviços
 49.24-8-00,Transporte escolar,Comércio e serviços
-49.29-9-01,"Transporte rodoviário coletivo de passageiros, sob regime de fretamento, municipal",
-49.29-9-02,"Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional",
-49.29-9-03,"Organização de excursões em veículos rodoviários próprios, municipal",
-49.29-9-04,"Organização de excursões em veículos rodoviários próprios, intermunicipal, interestadual e internacional",
-49.29-9-99,Outros transportes rodoviários de passageiros não especificados anteriormente,
-49.30-2-01,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal",
-49.30-2-02,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",
+49.29-9-01,"Transporte rodoviário coletivo de passageiros, sob regime de fretamento, municipal",Comércio e serviços
+49.29-9-02,"Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional",Comércio e serviços
+49.29-9-03,"Organização de excursões em veículos rodoviários próprios, municipal",Comércio e serviços
+49.29-9-04,"Organização de excursões em veículos rodoviários próprios, intermunicipal, interestadual e internacional",Comércio e serviços
+49.29-9-99,Outros transportes rodoviários de passageiros não especificados anteriormente,Comércio e serviços
+49.30-2-01,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal","Depósito, armazéns, pátio de veículos, transportadoras e afins"
+49.30-2-02,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional","Depósito, armazéns, pátio de veículos, transportadoras e afins"
 49.30-2-03,Transporte rodoviário de produtos perigosos,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
 49.30-2-04,Transporte rodoviário de mudanças,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
-49.40-0-00,Transporte dutoviário,
-49.50-7-00,"Trens turísticos, teleféricos e similares",
+49.40-0-00,Transporte dutoviário,Outro uso não especificado
+49.50-7-00,"Trens turísticos, teleféricos e similares",Comércio e serviços
 50.11-4-01,Transporte marítimo de cabotagem - Carga,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
 50.11-4-02,Transporte marítimo de cabotagem - Passageiros,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
 50.12-2-01,Transporte marítimo de longo curso - Carga,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
 50.12-2-02,Transporte marítimo de longo curso - Passageiros,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
-50.21-1-01,"Transporte por navegação interior de carga, municipal, exceto travessia",
-50.21-1-02,"Transporte por navegação interior de carga, intermunicipal, interestadual e internacional, exceto travessia",
-50.22-0-01,"Transporte por navegação interior de passageiros em linhas regulares, municipal, exceto travessia",
-50.22-0-02,"Transporte por navegação interior de passageiros em linhas regulares, intermunicipal, interestadual e internacional, exceto travessia",
-50.30-1-01,Navegação de apoio marítimo,
+50.21-1-01,"Transporte por navegação interior de carga, municipal, exceto travessia","Portos, terminais portuários e portos secos"
+50.21-1-02,"Transporte por navegação interior de carga, intermunicipal, interestadual e internacional, exceto travessia","Portos, terminais portuários e portos secos"
+50.22-0-01,"Transporte por navegação interior de passageiros em linhas regulares, municipal, exceto travessia","Portos, terminais portuários e portos secos"
+50.22-0-02,"Transporte por navegação interior de passageiros em linhas regulares, intermunicipal, interestadual e internacional, exceto travessia","Portos, terminais portuários e portos secos"
+50.30-1-01,Navegação de apoio marítimo,"Portos, terminais portuários e portos secos"
 50.30-1-02,Navegação de apoio portuário,"Portos, terminais portuários e portos secos"
-50.30-1-03,Serviço de rebocadores e empurradores,
-50.91-2-01,"Transporte por navegação de travessia, municipal",
-50.91-2-02,"Transporte por navegação de travessia, intermunicipal, interestadual e internacional",
-50.99-8-01,Transporte aquaviário para passeios turísticos,
-50.99-8-99,Outros transportes aquaviários não especificados anteriormente,
-51.11-1-00,Transporte aéreo de passageiros regular,
-51.12-9-01,Serviço de táxi aéreo e locação de aeronaves com tripulação,
+50.30-1-03,Serviço de rebocadores e empurradores,Comércio e serviços
+50.91-2-01,"Transporte por navegação de travessia, municipal","Portos, terminais portuários e portos secos"
+50.91-2-02,"Transporte por navegação de travessia, intermunicipal, interestadual e internacional","Portos, terminais portuários e portos secos"
+50.99-8-01,Transporte aquaviário para passeios turísticos,"Portos, terminais portuários e portos secos"
+50.99-8-99,Outros transportes aquaviários não especificados anteriormente,"Portos, terminais portuários e portos secos"
+51.11-1-00,Transporte aéreo de passageiros regular,Comércio e serviços
+51.12-9-01,Serviço de táxi aéreo e locação de aeronaves com tripulação,Comércio e serviços
 51.12-9-99,Outros serviços de transporte aéreo de passageiros não regular,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
 51.20-0-00,Transporte aéreo de carga,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
 51.30-7-00,Transporte espacial,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
 52.11-7-01,Armazéns gerais - emissão de warrant,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
-52.11-7-02,Guarda-móveis,
-52.11-7-99,"Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis",
-52.12-5-00,Carga e descarga,
-52.21-4-00,"Concessionárias de rodovias, pontes, túneis e serviços relacionados",
+52.11-7-02,Guarda-móveis,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
+52.11-7-99,"Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis","Depósito, armazéns, pátio de veículos, transportadoras e afins"
+52.12-5-00,Carga e descarga,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
+52.21-4-00,"Concessionárias de rodovias, pontes, túneis e serviços relacionados",Comércio e serviços
 52.22-2-00,Terminais rodoviários e ferroviários,"Terminais urbanos, interurbanos de qualquer modal"
-52.23-1-00,Estacionamento de veículos,
+52.23-1-00,Estacionamento de veículos,Comércio e serviços
 52.29-0-01,"Serviços de apoio ao transporte por táxi, inclusive centrais de chamada",Comércio e serviços
 52.29-0-02,Serviços de reboque de veículos,Comércio e serviços
 52.29-0-99,Outras atividades auxiliares dos transportes terrestres não especificadas anteriormente,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
@@ -939,246 +939,246 @@ CÓDIGO,DENOMINAÇÃO ATIVIDADE,ATIVIDADE/ USO
 52.31-1-03,Gestão de terminais aquaviários,"Portos, terminais portuários e portos secos"
 52.32-0-00,Atividades de agenciamento marítimo,Comércio e serviços
 52.39-7-01,Serviços de praticagem,Comércio e serviços
-52.39-7-99,Atividades auxiliares dos transportes aquaviários não especificadas anteriormente,
-52.40-1-01,Operação dos aeroportos e campos de aterrissagem,
-52.40-1-99,"Atividades auxiliares dos transportes aéreos, exceto operação dos aeroportos e campos de aterrissagem",
-52.50-8-01,Comissaria de despachos,
-52.50-8-02,Atividades de despachantes aduaneiros,
-52.50-8-03,"Agenciamento de cargas, exceto para o transporte marítimo",
-52.50-8-04,Organização logística do transporte de carga,
-52.50-8-05,Operador de transporte multimodal - OTM,
-53.10-5-01,Atividades do Correio Nacional,
-53.10-5-02,Atividades de franqueadas e permissionárias do Correio Nacional,
+52.39-7-99,Atividades auxiliares dos transportes aquaviários não especificadas anteriormente,"Portos, terminais portuários e portos secos"
+52.40-1-01,Operação dos aeroportos e campos de aterrissagem,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
+52.40-1-99,"Atividades auxiliares dos transportes aéreos, exceto operação dos aeroportos e campos de aterrissagem","Depósito, armazéns, pátio de veículos, transportadoras e afins"
+52.50-8-01,Comissaria de despachos,Comércio e serviços
+52.50-8-02,Atividades de despachantes aduaneiros,Comércio e serviços
+52.50-8-03,"Agenciamento de cargas, exceto para o transporte marítimo",Comércio e serviços
+52.50-8-04,Organização logística do transporte de carga,"Depósito, armazéns, pátio de veículos, transportadoras e afins"
+52.50-8-05,Operador de transporte multimodal - OTM,"Portos, terminais portuários e portos secos"
+53.10-5-01,Atividades do Correio Nacional,Outro uso não especificado
+53.10-5-02,Atividades de franqueadas e permissionárias do Correio Nacional,Outro uso não especificado
 53.20-2-01,Serviços de malote não realizados pelo Correio Nacional,Comércio e serviços
 53.20-2-02,Serviços de entrega rápida,Comércio e serviços
-55.10-8-01,Hotéis,
-55.10-8-02,Apart-hotéis,
-55.10-8-03,Motéis,
-55.90-6-01,"Albergues, exceto assistenciais",
-55.90-6-02,Campings,
-55.90-6-03,Pensões (alojamento),
-55.90-6-99,Outros alojamentos não especificados anteriormente,
+55.10-8-01,Hotéis,Outro uso não especificado
+55.10-8-02,Apart-hotéis,Outro uso não especificado
+55.10-8-03,Motéis,Outro uso não especificado
+55.90-6-01,"Albergues, exceto assistenciais",Outro uso não especificado
+55.90-6-02,Campings,Outro uso não especificado
+55.90-6-03,Pensões (alojamento),Outro uso não especificado
+55.90-6-99,Outros alojamentos não especificados anteriormente,Outro uso não especificado
 56.11-2-01,Restaurantes e similares,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 56.11-2-03,"Lanchonetes, casas de chá, de sucos e similares","Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 56.11-2-04,"Bares e outros estabelecimentos especializados em servir bebidas, sem entretenimento","Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 56.11-2-05,"Bares e outros estabelecimentos especializados em servir bebidas, com entretenimento","Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 56.12-1-00,Serviços ambulantes de alimentação,Comércio e serviços
-56.20-1-01,Fornecimento de alimentos preparados preponderantemente para empresas,
-56.20-1-02,Serviços de alimentação para eventos e recepções - bufê,
+56.20-1-01,Fornecimento de alimentos preparados preponderantemente para empresas,Comércio e serviços
+56.20-1-02,Serviços de alimentação para eventos e recepções - bufê,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 56.20-1-03,Cantinas - serviços de alimentação privativos,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
-56.20-1-04,Fornecimento de alimentos preparados preponderantemente para consumo domiciliar,
-58.11-5-00,Edição de livros,
-58.12-3-01,Edição de jornais diários,
-58.12-3-02,Edição de jornais não diários,
-58.13-1-00,Edição de revistas,
-58.19-1-00,"Edição de cadastros, listas e outros produtos gráficos",
-58.21-2-00,Edição integrada à impressão de livros,
-58.22-1-01,Edição integrada à impressão de jornais diários,
-58.22-1-02,Edição integrada à impressão de jornais não diários,
-58.23-9-00,Edição integrada à impressão de revistas,
-58.29-8-00,"Edição integrada à impressão de cadastros, listas e outros produtos gráficos",
-59.11-1-01,Estúdios cinematográficos,
-59.11-1-02,Produção de filmes para publicidade,
-59.11-1-99,"Atividades de produção cinematográfica, de vídeos e de programas de televisão não especificadas anteriormente",
-59.12-0-01,Serviços de dublagem,
-59.12-0-02,Serviços de mixagem sonora em produção audiovisual,
-59.12-0-99,"Atividades de pós-produção cinematográfica, de vídeos e de programas de televisão não especificadas anteriormente",
-59.13-8-00,"Distribuição cinematográfica, de vídeo e de programas de televisão",
-59.14-6-00,Atividades de exibição cinematográfica,
-59.20-1-00,Atividades de gravação de som e de edição de música,
-60.10-1-00,Atividades de rádio,
-60.21-7-00,Atividades de televisão aberta,
-60.22-5-01,Programadoras,
-60.22-5-02,"Atividades relacionadas à televisão por assinatura, exceto programadoras",
-61.10-8-01,Serviços de telefonia fixa comutada - STFC,
-61.10-8-02,Serviços de redes de transporte de telecomunicações - SRTT,
-61.10-8-03,Serviços de comunicação multimídia - SCM,
-61.10-8-99,Serviços de telecomunicações por fio não especificados anteriormente,
-61.20-5-01,Telefonia móvel celular,
-61.20-5-02,Serviço móvel especializado - SME,
-61.20-5-99,Serviços de telecomunicações sem fio não especificados anteriormente,
-61.30-2-00,Telecomunicações por satélite,
-61.41-8-00,Operadoras de televisão por assinatura por cabo,
-61.42-6-00,Operadoras de televisão por assinatura por micro-ondas,
-61.43-4-00,Operadoras de televisão por assinatura por satélite,
-61.90-6-01,Provedores de acesso às redes de comunicações,
-61.90-6-02,Provedores de voz sobre protocolo Internet - VOIP,
-61.90-6-99,Outras atividades de telecomunicações não especificadas anteriormente,
-62.01-5-01,Desenvolvimento de programas de computador sob encomenda,
-62.01-5-02,Web desing,
-62.02-3-00,Desenvolvimento e licenciamento de programas de computador customizáveis,
-62.03-1-00,Desenvolvimento e licenciamento de programas de computador não customizáveis,
-62.04-0-00,Consultoria em tecnologia da informação,
-62.09-1-00,"Suporte técnico, manutenção e outros serviços em tecnologia da informação",
-63.11-9-00,"Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na Internet",
-63.19-4-00,"Portais, provedores de conteúdo e outros serviços de informação na Internet",
-63.91-7-00,Agências de notícias,
-63.99-2-00,Outras atividades de prestação de serviços de informação não especificadas anteriormente,
+56.20-1-04,Fornecimento de alimentos preparados preponderantemente para consumo domiciliar,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
+58.11-5-00,Edição de livros,Comércio e serviços
+58.12-3-01,Edição de jornais diários,Comércio e serviços
+58.12-3-02,Edição de jornais não diários,Comércio e serviços
+58.13-1-00,Edição de revistas,Comércio e serviços
+58.19-1-00,"Edição de cadastros, listas e outros produtos gráficos",Comércio e serviços
+58.21-2-00,Edição integrada à impressão de livros,Comércio e serviços
+58.22-1-01,Edição integrada à impressão de jornais diários,Comércio e serviços
+58.22-1-02,Edição integrada à impressão de jornais não diários,Comércio e serviços
+58.23-9-00,Edição integrada à impressão de revistas,Comércio e serviços
+58.29-8-00,"Edição integrada à impressão de cadastros, listas e outros produtos gráficos",Comércio e serviços
+59.11-1-01,Estúdios cinematográficos,Comércio e serviços
+59.11-1-02,Produção de filmes para publicidade,Comércio e serviços
+59.11-1-99,"Atividades de produção cinematográfica, de vídeos e de programas de televisão não especificadas anteriormente",Comércio e serviços
+59.12-0-01,Serviços de dublagem,Comércio e serviços
+59.12-0-02,Serviços de mixagem sonora em produção audiovisual,Comércio e serviços
+59.12-0-99,"Atividades de pós-produção cinematográfica, de vídeos e de programas de televisão não especificadas anteriormente",Comércio e serviços
+59.13-8-00,"Distribuição cinematográfica, de vídeo e de programas de televisão",Comércio e serviços
+59.14-6-00,Atividades de exibição cinematográfica,Comércio e serviços
+59.20-1-00,Atividades de gravação de som e de edição de música,Comércio e serviços
+60.10-1-00,Atividades de rádio,Comércio e serviços
+60.21-7-00,Atividades de televisão aberta,Comércio e serviços
+60.22-5-01,Programadoras,Comércio e serviços
+60.22-5-02,"Atividades relacionadas à televisão por assinatura, exceto programadoras",Comércio e serviços
+61.10-8-01,Serviços de telefonia fixa comutada - STFC,Comércio e serviços
+61.10-8-02,Serviços de redes de transporte de telecomunicações - SRTT,Comércio e serviços
+61.10-8-03,Serviços de comunicação multimídia - SCM,Comércio e serviços
+61.10-8-99,Serviços de telecomunicações por fio não especificados anteriormente,Comércio e serviços
+61.20-5-01,Telefonia móvel celular,Comércio e serviços
+61.20-5-02,Serviço móvel especializado - SME,Comércio e serviços
+61.20-5-99,Serviços de telecomunicações sem fio não especificados anteriormente,Comércio e serviços
+61.30-2-00,Telecomunicações por satélite,Comércio e serviços
+61.41-8-00,Operadoras de televisão por assinatura por cabo,Comércio e serviços
+61.42-6-00,Operadoras de televisão por assinatura por micro-ondas,Comércio e serviços
+61.43-4-00,Operadoras de televisão por assinatura por satélite,Comércio e serviços
+61.90-6-01,Provedores de acesso às redes de comunicações,Comércio e serviços
+61.90-6-02,Provedores de voz sobre protocolo Internet - VOIP,Comércio e serviços
+61.90-6-99,Outras atividades de telecomunicações não especificadas anteriormente,Comércio e serviços
+62.01-5-01,Desenvolvimento de programas de computador sob encomenda,Comércio e serviços
+62.01-5-02,Web desing,Comércio e serviços
+62.02-3-00,Desenvolvimento e licenciamento de programas de computador customizáveis,Comércio e serviços
+62.03-1-00,Desenvolvimento e licenciamento de programas de computador não customizáveis,Comércio e serviços
+62.04-0-00,Consultoria em tecnologia da informação,Comércio e serviços
+62.09-1-00,"Suporte técnico, manutenção e outros serviços em tecnologia da informação",Comércio e serviços
+63.11-9-00,"Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na Internet",Comércio e serviços
+63.19-4-00,"Portais, provedores de conteúdo e outros serviços de informação na Internet",Comércio e serviços
+63.91-7-00,Agências de notícias,Comércio e serviços
+63.99-2-00,Outras atividades de prestação de serviços de informação não especificadas anteriormente,Comércio e serviços
 64.10-7-00,Banco Central,Governamental
-64.21-2-00,Bancos comerciais,
-64.22-1-00,"Bancos múltiplos, com carteira comercial",
-64.23-9-00,Caixas econômicas,
-64.24-7-01,Bancos cooperativos,
-64.24-7-02,Cooperativas centrais de crédito,
-64.24-7-03,Cooperativas de crédito mútuo,
-64.24-7-04,Cooperativas de crédito rural,
-64.31-0-00,"Bancos múltiplos, sem carteira comercial",
-64.32-8-00,Bancos de investimento,
-64.33-6-00,Bancos de desenvolvimento,
-64.34-4-00,Agências de fomento,
-64.35-2-01,Sociedades de crédito imobiliário,
-64.35-2-02,Associações de poupança e empréstimo,
-64.35-2-03,Companhias hipotecárias,
-64.36-1-00,"Sociedades de crédito, financiamento e investimento - financeiras",
-64.37-9-00,Sociedades de crédito ao microempreendedor,
-64.38-7-01,Bancos de câmbio,
-64.38-7-99,Outras instituições de intermediação não monetária não especificadas anteriormente,
-64.40-9-00,Arrendamento mercantil,
-64.50-6-00,Sociedades de capitalização,
-64.61-1-00,Holdings de instituições financeiras,
-64.62-0-00,Holdings de instituições não financeiras,
-64.63-8-00,"Outras sociedades de participação, exceto holdings",
-64.70-1-01,"Fundos de investimento, exceto previdenciários e imobiliários",
-64.70-1-02,Fundos de investimento previdenciários,
-64.70-1-03,Fundos de investimento imobiliários,
-64.91-3-00,Sociedades de fomento mercantil - factoring,
-64.92-1-00,Securitização de créditos,
-64.93-0-00,Administração de consórcios para aquisição de bens e direitos,
-64.99-9-01,Clubes de investimento,
-64.99-9-02,Sociedades de investimento,
-64.99-9-03,Fundo garantidor de crédito,
-64.99-9-04,Caixas de financiamento de corporações,
-64.99-9-05,Concessão de crédito pelas OSCIP,
-64.99-9-99,Outras atividades de serviços financeiros não especificadas anteriormente,
-65.11-1-01,Sociedade seguradora de seguros vida,
-65.11-1-02,Planos de auxílio-funeral,
-65.12-0-00,Sociedade seguradora de seguros não vida,
-65.20-1-00,Sociedade seguradora de seguros-saúde,
-65.30-8-00,Resseguros,
-65.41-3-00,Previdência complementar fechada,
-65.42-1-00,Previdência complementar aberta,
-65.50-2-00,Planos de saúde,
-66.11-8-01,Bolsa de valores,
-66.11-8-02,Bolsa de mercadorias,
-66.11-8-03,Bolsa de mercadorias e futuros,
-66.11-8-04,Administração de mercados de balcão organizados,
-66.12-6-01,Corretoras de títulos e valores mobiliários,
-66.12-6-02,Distribuidoras de títulos e valores mobiliários,
-66.12-6-03,Corretoras de câmbio,
-66.12-6-04,Corretoras de contratos de mercadorias,
-66.12-6-05,Agentes de investimentos em aplicações financeiras,
-66.13-4-00,Administração de cartões de crédito,
-66.19-3-01,Serviços de liquidação e custódia,
-66.19-3-02,Correspondentes de instituições financeiras,
-66.19-3-03,Representações de bancos estrangeiros,
-66.19-3-04,Caixas eletrônicos,
-66.19-3-05,Operadoras de cartões de débito,
-66.19-3-99,Outras atividades auxiliares dos serviços financeiros não especificadas anteriormente,
-66.21-5-01,Peritos e avaliadores de seguros,
-66.21-5-02,Auditoria e consultoria atuarial,
-66.22-3-00,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",
-66.29-1-00,"Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde não especificadas anteriormente",
-66.30-4-00,Atividades de administração de fundos por contrato ou comissão,
-68.10-2-01,Compra e venda de imóveis próprios,
-68.10-2-02,Aluguel de imóveis próprios,
+64.21-2-00,Bancos comerciais,Outro uso não especificado
+64.22-1-00,"Bancos múltiplos, com carteira comercial",Outro uso não especificado
+64.23-9-00,Caixas econômicas,Outro uso não especificado
+64.24-7-01,Bancos cooperativos,Outro uso não especificado
+64.24-7-02,Cooperativas centrais de crédito,Outro uso não especificado
+64.24-7-03,Cooperativas de crédito mútuo,Outro uso não especificado
+64.24-7-04,Cooperativas de crédito rural,Outro uso não especificado
+64.31-0-00,"Bancos múltiplos, sem carteira comercial",Outro uso não especificado
+64.32-8-00,Bancos de investimento,Outro uso não especificado
+64.33-6-00,Bancos de desenvolvimento,Outro uso não especificado
+64.34-4-00,Agências de fomento,Outro uso não especificado
+64.35-2-01,Sociedades de crédito imobiliário,Outro uso não especificado
+64.35-2-02,Associações de poupança e empréstimo,Outro uso não especificado
+64.35-2-03,Companhias hipotecárias,Outro uso não especificado
+64.36-1-00,"Sociedades de crédito, financiamento e investimento - financeiras",Outro uso não especificado
+64.37-9-00,Sociedades de crédito ao microempreendedor,Outro uso não especificado
+64.38-7-01,Bancos de câmbio,Outro uso não especificado
+64.38-7-99,Outras instituições de intermediação não monetária não especificadas anteriormente,Outro uso não especificado
+64.40-9-00,Arrendamento mercantil,Outro uso não especificado
+64.50-6-00,Sociedades de capitalização,Outro uso não especificado
+64.61-1-00,Holdings de instituições financeiras,Outro uso não especificado
+64.62-0-00,Holdings de instituições não financeiras,Outro uso não especificado
+64.63-8-00,"Outras sociedades de participação, exceto holdings",Outro uso não especificado
+64.70-1-01,"Fundos de investimento, exceto previdenciários e imobiliários",Outro uso não especificado
+64.70-1-02,Fundos de investimento previdenciários,Outro uso não especificado
+64.70-1-03,Fundos de investimento imobiliários,Outro uso não especificado
+64.91-3-00,Sociedades de fomento mercantil - factoring,Outro uso não especificado
+64.92-1-00,Securitização de créditos,Outro uso não especificado
+64.93-0-00,Administração de consórcios para aquisição de bens e direitos,Outro uso não especificado
+64.99-9-01,Clubes de investimento,Outro uso não especificado
+64.99-9-02,Sociedades de investimento,Outro uso não especificado
+64.99-9-03,Fundo garantidor de crédito,Outro uso não especificado
+64.99-9-04,Caixas de financiamento de corporações,Outro uso não especificado
+64.99-9-05,Concessão de crédito pelas OSCIP,Outro uso não especificado
+64.99-9-99,Outras atividades de serviços financeiros não especificadas anteriormente,Comércio e serviços
+65.11-1-01,Sociedade seguradora de seguros vida,Outro uso não especificado
+65.11-1-02,Planos de auxílio-funeral,Cemitério e crematório
+65.12-0-00,Sociedade seguradora de seguros não vida,Outro uso não especificado
+65.20-1-00,Sociedade seguradora de seguros-saúde,Outro uso não especificado
+65.30-8-00,Resseguros,Outro uso não especificado
+65.41-3-00,Previdência complementar fechada,Outro uso não especificado
+65.42-1-00,Previdência complementar aberta,Outro uso não especificado
+65.50-2-00,Planos de saúde,Comércio e serviços
+66.11-8-01,Bolsa de valores,Outro uso não especificado
+66.11-8-02,Bolsa de mercadorias,Outro uso não especificado
+66.11-8-03,Bolsa de mercadorias e futuros,Outro uso não especificado
+66.11-8-04,Administração de mercados de balcão organizados,Outro uso não especificado
+66.12-6-01,Corretoras de títulos e valores mobiliários,Outro uso não especificado
+66.12-6-02,Distribuidoras de títulos e valores mobiliários,Outro uso não especificado
+66.12-6-03,Corretoras de câmbio,Outro uso não especificado
+66.12-6-04,Corretoras de contratos de mercadorias,Outro uso não especificado
+66.12-6-05,Agentes de investimentos em aplicações financeiras,Outro uso não especificado
+66.13-4-00,Administração de cartões de crédito,Outro uso não especificado
+66.19-3-01,Serviços de liquidação e custódia,Comércio e serviços
+66.19-3-02,Correspondentes de instituições financeiras,Outro uso não especificado
+66.19-3-03,Representações de bancos estrangeiros,Outro uso não especificado
+66.19-3-04,Caixas eletrônicos,Outro uso não especificado
+66.19-3-05,Operadoras de cartões de débito,Outro uso não especificado
+66.19-3-99,Outras atividades auxiliares dos serviços financeiros não especificadas anteriormente,Comércio e serviços
+66.21-5-01,Peritos e avaliadores de seguros,Outro uso não especificado
+66.21-5-02,Auditoria e consultoria atuarial,Outro uso não especificado
+66.22-3-00,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",Outro uso não especificado
+66.29-1-00,"Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde não especificadas anteriormente",Outro uso não especificado
+66.30-4-00,Atividades de administração de fundos por contrato ou comissão,Outro uso não especificado
+68.10-2-01,Compra e venda de imóveis próprios,Outro uso não especificado
+68.10-2-02,Aluguel de imóveis próprios,Outro uso não especificado
 68.10-2-03,Loteamento de imóveis próprios,Loteamento
-68.21-8-01,Corretagem na compra e venda e avaliação de imóveis,
-68.21-8-02,Corretagem no aluguel de imóveis,
-68.22-6-00,Gestão e administração da propriedade imobiliária,
-69.11-7-01,Serviços advocatícios,
+68.21-8-01,Corretagem na compra e venda e avaliação de imóveis,Comércio e serviços
+68.21-8-02,Corretagem no aluguel de imóveis,Comércio e serviços
+68.22-6-00,Gestão e administração da propriedade imobiliária,Comércio e serviços
+69.11-7-01,Serviços advocatícios,Comércio e serviços
 69.11-7-02,Atividades auxiliares da justiça,Governamental
-69.11-7-03,Agente de propriedade industrial,
-69.12-5-00,Cartórios,
-69.20-6-01,Atividades de contabilidade,
-69.20-6-02,Atividades de consultoria e auditoria contábil e tributária,
-70.20-4-00,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",
-71.11-1-00,Serviços de arquitetura,
-71.12-0-00,Serviços de engenharia,
-71.19-7-01,"Serviços de cartografia, topografia e geodésia",
-71.19-7-02,Atividades de estudos geológicos,
-71.19-7-03,Serviços de desenho técnico relacionados à arquitetura e engenharia,
-71.19-7-04,Serviços de perícia técnica relacionados à segurança do trabalho,
-71.19-7-99,Atividades técnicas relacionadas à engenharia e arquitetura não especificadas anteriormente,
-71.20-1-00,Testes e análises técnicas,
-72.10-0-00,Pesquisa e desenvolvimento experimental em ciências físicas e naturais,
-72.20-7-00,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,
-73.11-4-00,Agências de publicidade,
-73.12-2-00,"Agenciamento de espaços para publicidade, exceto em veículos de comunicação",
-73.19-0-01,Criação de estandes para feiras e exposições,
-73.19-0-02,Promoção de vendas,
-73.19-0-03,Marketing direto,
-73.19-0-04,Consultoria em publicidade,
-73.19-0-99,Outras atividades de publicidade não especificadas anteriormente,
-73.20-3-00,Pesquisas de mercado e de opinião pública,
-74.10-2-02,Design de interiores,
-74.10-2-03,Desing de produto,
-74.10-2-99,Atividades de desing não especificadas anteriormente,
-74.20-0-01,"Atividades de produção de fotografias, exceto aérea e submarina",
-74.20-0-02,Atividades de produção de fotografias aéreas e submarinas,
-74.20-0-03,Laboratórios fotográficos,
-74.20-0-04,Filmagem de festas e eventos,
-74.20-0-05,Serviços de microfilmagem,
-74.90-1-01,"Serviços de tradução, interpretação e similares",
-74.90-1-02,Escafandria e mergulho,
-74.90-1-03,Serviços de agronomia e de consultoria às atividades agrícolas e pecuárias,
-74.90-1-04,"Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários",
-74.90-1-05,"Agenciamento de profissionais para atividades esportivas, culturais e artísticas",
-74.90-1-99,"Outras atividades profissionais, científicas e técnicas não especificadas anteriormente",
-75.00-1-00,Atividades veterinárias,
-77.11-0-00,Locação de automóveis sem condutor,
-77.19-5-01,"Locação de embarcações sem tripulação, exceto para fins recreativos",
-77.19-5-02,Locação de aeronaves sem tripulação,
-77.19-5-99,"Locação de outros meios de transporte não especificados anteriormente, sem condutor",
-77.21-7-00,Aluguel de equipamentos recreativos e esportivos,
-77.22-5-00,"Aluguel de fitas de vídeo, DVDs e similares",
-77.23-3-00,"Aluguel de objetos do vestuário, jóias e acessórios",
-77.29-2-01,Aluguel de aparelhos de jogos eletrônicos,
-77.29-2-02,"Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais",
-77.29-2-03,Aluguel de material médico,
-77.29-2-99,Aluguel de outros objetos pessoais e domésticos não especificados anteriormente,
-77.31-4-00,Aluguel de máquinas e equipamentos agrícolas sem operador,
-77.32-2-01,"Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes",
-77.32-2-02,Aluguel de andaimes,
-77.33-1-00,Aluguel de máquinas e equipamentos para escritório,
-77.39-0-01,"Aluguel de máquinas e equipamentos para extração de minérios e petróleo, sem operador",
-77.39-0-02,"Aluguel de equipamentos científicos, médicos e hospitalares, sem operador",
-77.39-0-03,"Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",
-77.39-0-99,"Aluguel de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador",
-77.40-3-00,Gestão de ativos intangíveis não financeiros,
-78.10-8-00,Seleção e agenciamento de mão de obra,
-78.20-5-00,Locação de mão de obra temporária,
-78.30-2-00,Fornecimento e gestão de recursos humanos para terceiros,
-79.11-2-00,Agências de viagens,
-79.12-1-00,Operadores turísticos,
-79.90-2-00,Serviços de reservas e outros serviços de turismo não especificados anteriormente,
-80.11-1-01,Atividades de vigilância e segurança privada,
-80.11-1-02,Serviços de adestramento de cães de guarda,
-80.12-9-00,Atividades de transporte de valores,
-80.20-0-01,Atividades de monitoramento de sistemas de segurança eletrônico,
-80.20-0-02,Outras atividades de serviços de segurança,
-80.30-7-00,Atividades de investigação particular,
-81.11-7-00,"Serviços combinados para apoio a edifícios, exceto condomínios prediais",
-81.12-5-00,Condomínios prediais,
-81.21-4-00,Limpeza em prédios e em domicílios,
+69.11-7-03,Agente de propriedade industrial,Comércio e serviços
+69.12-5-00,Cartórios,Governamental
+69.20-6-01,Atividades de contabilidade,Comércio e serviços
+69.20-6-02,Atividades de consultoria e auditoria contábil e tributária,Comércio e serviços
+70.20-4-00,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Comércio e serviços
+71.11-1-00,Serviços de arquitetura,Comércio e serviços
+71.12-0-00,Serviços de engenharia,Comércio e serviços
+71.19-7-01,"Serviços de cartografia, topografia e geodésia",Comércio e serviços
+71.19-7-02,Atividades de estudos geológicos,Comércio e serviços
+71.19-7-03,Serviços de desenho técnico relacionados à arquitetura e engenharia,Comércio e serviços
+71.19-7-04,Serviços de perícia técnica relacionados à segurança do trabalho,Comércio e serviços
+71.19-7-99,Atividades técnicas relacionadas à engenharia e arquitetura não especificadas anteriormente,Comércio e serviços
+71.20-1-00,Testes e análises técnicas,Comércio e serviços
+72.10-0-00,Pesquisa e desenvolvimento experimental em ciências físicas e naturais,Comércio e serviços
+72.20-7-00,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,Comércio e serviços
+73.11-4-00,Agências de publicidade,Comércio e serviços
+73.12-2-00,"Agenciamento de espaços para publicidade, exceto em veículos de comunicação",Comércio e serviços
+73.19-0-01,Criação de estandes para feiras e exposições,Comércio e serviços
+73.19-0-02,Promoção de vendas,Comércio e serviços
+73.19-0-03,Marketing direto,Comércio e serviços
+73.19-0-04,Consultoria em publicidade,Comércio e serviços
+73.19-0-99,Outras atividades de publicidade não especificadas anteriormente,Comércio e serviços
+73.20-3-00,Pesquisas de mercado e de opinião pública,Comércio e serviços
+74.10-2-02,Design de interiores,Comércio e serviços
+74.10-2-03,Desing de produto,Comércio e serviços
+74.10-2-99,Atividades de desing não especificadas anteriormente,Comércio e serviços
+74.20-0-01,"Atividades de produção de fotografias, exceto aérea e submarina",Comércio e serviços
+74.20-0-02,Atividades de produção de fotografias aéreas e submarinas,Comércio e serviços
+74.20-0-03,Laboratórios fotográficos,Comércio e serviços
+74.20-0-04,Filmagem de festas e eventos,Comércio e serviços
+74.20-0-05,Serviços de microfilmagem,Comércio e serviços
+74.90-1-01,"Serviços de tradução, interpretação e similares",Comércio e serviços
+74.90-1-02,Escafandria e mergulho,Comércio e serviços
+74.90-1-03,Serviços de agronomia e de consultoria às atividades agrícolas e pecuárias,Comércio e serviços
+74.90-1-04,"Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários",Comércio e serviços
+74.90-1-05,"Agenciamento de profissionais para atividades esportivas, culturais e artísticas",Comércio e serviços
+74.90-1-99,"Outras atividades profissionais, científicas e técnicas não especificadas anteriormente",Comércio e serviços
+75.00-1-00,Atividades veterinárias,"Hospitais, clínicas, centros de zoonose e similares"
+77.11-0-00,Locação de automóveis sem condutor,Comércio e serviços
+77.19-5-01,"Locação de embarcações sem tripulação, exceto para fins recreativos",Comércio e serviços
+77.19-5-02,Locação de aeronaves sem tripulação,Comércio e serviços
+77.19-5-99,"Locação de outros meios de transporte não especificados anteriormente, sem condutor",Comércio e serviços
+77.21-7-00,Aluguel de equipamentos recreativos e esportivos,Comércio e serviços
+77.22-5-00,"Aluguel de fitas de vídeo, DVDs e similares",Comércio e serviços
+77.23-3-00,"Aluguel de objetos do vestuário, jóias e acessórios",Comércio e serviços
+77.29-2-01,Aluguel de aparelhos de jogos eletrônicos,Comércio e serviços
+77.29-2-02,"Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais",Comércio e serviços
+77.29-2-03,Aluguel de material médico,Comércio e serviços
+77.29-2-99,Aluguel de outros objetos pessoais e domésticos não especificados anteriormente,Comércio e serviços
+77.31-4-00,Aluguel de máquinas e equipamentos agrícolas sem operador,Comércio e serviços
+77.32-2-01,"Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes",Comércio e serviços
+77.32-2-02,Aluguel de andaimes,Comércio e serviços
+77.33-1-00,Aluguel de máquinas e equipamentos para escritório,Comércio e serviços
+77.39-0-01,"Aluguel de máquinas e equipamentos para extração de minérios e petróleo, sem operador",Comércio e serviços
+77.39-0-02,"Aluguel de equipamentos científicos, médicos e hospitalares, sem operador",Comércio e serviços
+77.39-0-03,"Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",Comércio e serviços
+77.39-0-99,"Aluguel de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador",Comércio e serviços
+77.40-3-00,Gestão de ativos intangíveis não financeiros,Outro uso não especificado
+78.10-8-00,Seleção e agenciamento de mão de obra,Comércio e serviços
+78.20-5-00,Locação de mão de obra temporária,Comércio e serviços
+78.30-2-00,Fornecimento e gestão de recursos humanos para terceiros,Comércio e serviços
+79.11-2-00,Agências de viagens,Comércio e serviços
+79.12-1-00,Operadores turísticos,Comércio e serviços
+79.90-2-00,Serviços de reservas e outros serviços de turismo não especificados anteriormente,Comércio e serviços
+80.11-1-01,Atividades de vigilância e segurança privada,Comércio e serviços
+80.11-1-02,Serviços de adestramento de cães de guarda,Comércio e serviços
+80.12-9-00,Atividades de transporte de valores,Comércio e serviços
+80.20-0-01,Atividades de monitoramento de sistemas de segurança eletrônico,Comércio e serviços
+80.20-0-02,Outras atividades de serviços de segurança,Comércio e serviços
+80.30-7-00,Atividades de investigação particular,Comércio e serviços
+81.11-7-00,"Serviços combinados para apoio a edifícios, exceto condomínios prediais",Comércio e serviços
+81.12-5-00,Condomínios prediais,Condomínio horizontal
+81.21-4-00,Limpeza em prédios e em domicílios,Comércio e serviços
 81.22-2-00,Imunização e controle de pragas urbanas,Comércio e serviços
-81.29-0-00,Atividades de limpeza não especificadas anteriormente,
-81.30-3-00,Atividades paisagísticas,
-82.11-3-00,Serviços combinados de escritório e apoio administrativo,
-82.19-9-01,Fotocópias,
-82.19-9-99,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,
-82.20-2-00,Atividades de teleatendimento,
-82.30-0-01,"Serviços de organização de feiras, congressos, exposições e festas",
-82.30-0-02,Casas de festas e eventos,
-82.91-1-00,Atividades de cobrança e informações cadastrais,
-82.92-0-00,Envasamento e empacotamento sob contrato,
-82.99-7-01,"Medição de consumo de energia elétrica, gás e água",
-82.99-7-02,"Emissão de vales-alimentação, vales-transporte e similares",
-82.99-7-03,"Serviços de gravação de carimbos, exceto confecção",
-82.99-7-04,Leiloeiros independentes,
-82.99-7-05,Serviços de levantamento de fundos sob contrato,
-82.99-7-06,Casas lotéricas,
+81.29-0-00,Atividades de limpeza não especificadas anteriormente,Comércio e serviços
+81.30-3-00,Atividades paisagísticas,Comércio e serviços
+82.11-3-00,Serviços combinados de escritório e apoio administrativo,Comércio e serviços
+82.19-9-01,Fotocópias,Comércio e serviços
+82.19-9-99,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,Comércio e serviços
+82.20-2-00,Atividades de teleatendimento,Comércio e serviços
+82.30-0-01,"Serviços de organização de feiras, congressos, exposições e festas","Centro de convenções, eventos, pavilhões e feiras"
+82.30-0-02,Casas de festas e eventos,"Centro de convenções, eventos, pavilhões e feiras"
+82.91-1-00,Atividades de cobrança e informações cadastrais,Comércio e serviços
+82.92-0-00,Envasamento e empacotamento sob contrato,Comércio e serviços
+82.99-7-01,"Medição de consumo de energia elétrica, gás e água",Comércio e serviços
+82.99-7-02,"Emissão de vales-alimentação, vales-transporte e similares",Comércio e serviços
+82.99-7-03,"Serviços de gravação de carimbos, exceto confecção",Comércio e serviços
+82.99-7-04,Leiloeiros independentes,Comércio e serviços
+82.99-7-05,Serviços de levantamento de fundos sob contrato,Comércio e serviços
+82.99-7-06,Casas lotéricas,Comércio e serviços
 82.99-7-07,Salas de acesso à Internet,Comércio e serviços
-82.99-7-99,Outras atividades de serviços prestados principalmente às empresas não especificadas anteriormente,
+82.99-7-99,Outras atividades de serviços prestados principalmente às empresas não especificadas anteriormente,Comércio e serviços
 84.11-6-00,Administração pública em geral,Governamental
 84.12-4-00,"Regulação das atividades de saúde, educação, serviços culturais e outros serviços sociais",Educacional
 84.13-2-00,Regulação das atividades econômicas,Governamental
@@ -1229,15 +1229,15 @@ CÓDIGO,DENOMINAÇÃO ATIVIDADE,ATIVIDADE/ USO
 86.40-2-04,Serviços de tomografia,"Hospitais, clínicas, centros de zoonose e similares"
 86.40-2-05,"Serviços de diagnóstico por imagem com uso de radiação ionizante, exceto tomografia","Hospitais, clínicas, centros de zoonose e similares"
 86.40-2-06,Serviços de ressonância magnética,"Hospitais, clínicas, centros de zoonose e similares"
-86.40-2-07,"Serviços de diagnóstico por imagem sem uso de radiação ionizante, exceto ressonância magnética",
-86.40-2-08,"Serviços de diagnóstico por registro gráfico - ECG, EEG e outros exames análogos",
-86.40-2-09,Serviços de diagnóstico por métodos ópticos - endoscopia e outros exames análogos,
+86.40-2-07,"Serviços de diagnóstico por imagem sem uso de radiação ionizante, exceto ressonância magnética","Hospitais, clínicas, centros de zoonose e similares"
+86.40-2-08,"Serviços de diagnóstico por registro gráfico - ECG, EEG e outros exames análogos","Hospitais, clínicas, centros de zoonose e similares"
+86.40-2-09,Serviços de diagnóstico por métodos ópticos - endoscopia e outros exames análogos,"Hospitais, clínicas, centros de zoonose e similares"
 86.40-2-10,Serviços de quimioterapia,"Hospitais, clínicas, centros de zoonose e similares"
 86.40-2-11,Serviços de radioterapia,"Hospitais, clínicas, centros de zoonose e similares"
 86.40-2-12,Serviços de hemoterapia,"Hospitais, clínicas, centros de zoonose e similares"
 86.40-2-13,Serviços de litotripsia,"Hospitais, clínicas, centros de zoonose e similares"
-86.40-2-14,Serviços de bancos de células e tecidos humanos,
-86.40-2-99,Atividades de serviços de complementação diagnóstica e terapêutica não especificadas anteriormente,
+86.40-2-14,Serviços de bancos de células e tecidos humanos,"Hospitais, clínicas, centros de zoonose e similares"
+86.40-2-99,Atividades de serviços de complementação diagnóstica e terapêutica não especificadas anteriormente,"Hospitais, clínicas, centros de zoonose e similares"
 86.50-0-01,Atividades de enfermagem,"Hospitais, clínicas, centros de zoonose e similares"
 86.50-0-02,Atividades de profissionais da nutrição,"Hospitais, clínicas, centros de zoonose e similares"
 86.50-0-03,Atividades de psicologia e psicanálise,"Hospitais, clínicas, centros de zoonose e similares"
@@ -1252,55 +1252,55 @@ CÓDIGO,DENOMINAÇÃO ATIVIDADE,ATIVIDADE/ USO
 86.90-9-03,Atividades de acupuntura,"Hospitais, clínicas, centros de zoonose e similares"
 86.90-9-04,Atividades de podologia,"Hospitais, clínicas, centros de zoonose e similares"
 86.90-9-99,Outras atividades de atenção à saúde humana não especificadas anteriormente,"Hospitais, clínicas, centros de zoonose e similares"
-87.11-5-01,Clínicas e residências geriátricas,
-87.11-5-02,Instituições de longa permanência para idosos,
-87.11-5-03,"Atividades de assistência a deficientes físicos, imunodeprimidos e convalescentes",
-87.11-5-04,Centros de apoio a pacientes com câncer e com AIDS,
-87.11-5-05,Condomínios residenciais para idosos,
+87.11-5-01,Clínicas e residências geriátricas,"Hospitais, clínicas, centros de zoonose e similares"
+87.11-5-02,Instituições de longa permanência para idosos,"Hospitais, clínicas, centros de zoonose e similares"
+87.11-5-03,"Atividades de assistência a deficientes físicos, imunodeprimidos e convalescentes","Hospitais, clínicas, centros de zoonose e similares"
+87.11-5-04,Centros de apoio a pacientes com câncer e com AIDS,"Hospitais, clínicas, centros de zoonose e similares"
+87.11-5-05,Condomínios residenciais para idosos,"Hospitais, clínicas, centros de zoonose e similares"
 87.12-3-00,Atividades de fornecimento de infraestrutura de apoio e assistência a paciente no domicílio,Comércio e serviços
-87.20-4-01,Atividades de centros de assistência psicossocial,
-87.20-4-99,"Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química e grupos similares não especificadas anteriormente",
-87.30-1-01,Orfanatos,
-87.30-1-02,Albergues assistenciais,
-87.30-1-99,Atividades de assistência social prestadas em residências coletivas e particulares não especificadas anteriormente,
-88.00-6-00,Serviços de assistência social sem alojamento,
-90.01-9-01,Produção teatral,
-90.01-9-02,Produção musical,
-90.01-9-03,Produção de espetáculos de dança,
-90.01-9-04,"Produção de espetáculos circenses, de marionetes e similares",
-90.01-9-05,"Produção de espetáculos de rodeios, vaquejadas e similares",
-90.01-9-06,Atividades de sonorização e de iluminação,
-90.01-9-99,"Artes cênicas, espetáculos e atividades complementares não especificados anteriormente",
-90.02-7-01,"Atividades de artistas plásticos, jornalistas independentes e escritores",
-90.02-7-02,Restauração de obras de arte,
-90.03-5-00,"Gestão de espaços para artes cênicas, espetáculos e outras atividades artísticas",
-91.01-5-00,Atividades de bibliotecas e arquivos,
-91.02-3-01,Atividades de museus e de exploração de lugares e prédios históricos e atrações similares,
-91.02-3-02,Restauração e conservação de lugares e prédios históricos,
-91.03-1-00,"Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental",
+87.20-4-01,Atividades de centros de assistência psicossocial,"Templos, igrejas e centros culturais"
+87.20-4-99,"Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química e grupos similares não especificadas anteriormente","Templos, igrejas e centros culturais"
+87.30-1-01,Orfanatos,"Templos, igrejas e centros culturais"
+87.30-1-02,Albergues assistenciais,"Templos, igrejas e centros culturais"
+87.30-1-99,Atividades de assistência social prestadas em residências coletivas e particulares não especificadas anteriormente,"Templos, igrejas e centros culturais"
+88.00-6-00,Serviços de assistência social sem alojamento,"Templos, igrejas e centros culturais"
+90.01-9-01,Produção teatral,Comércio e serviços
+90.01-9-02,Produção musical,Comércio e serviços
+90.01-9-03,Produção de espetáculos de dança,"Templos, igrejas e centros culturais"
+90.01-9-04,"Produção de espetáculos circenses, de marionetes e similares","Templos, igrejas e centros culturais"
+90.01-9-05,"Produção de espetáculos de rodeios, vaquejadas e similares","Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
+90.01-9-06,Atividades de sonorização e de iluminação,"Templos, igrejas e centros culturais"
+90.01-9-99,"Artes cênicas, espetáculos e atividades complementares não especificados anteriormente","Templos, igrejas e centros culturais"
+90.02-7-01,"Atividades de artistas plásticos, jornalistas independentes e escritores","Templos, igrejas e centros culturais"
+90.02-7-02,Restauração de obras de arte,Comércio e serviços
+90.03-5-00,"Gestão de espaços para artes cênicas, espetáculos e outras atividades artísticas","Templos, igrejas e centros culturais"
+91.01-5-00,Atividades de bibliotecas e arquivos,"Templos, igrejas e centros culturais"
+91.02-3-01,Atividades de museus e de exploração de lugares e prédios históricos e atrações similares,"Templos, igrejas e centros culturais"
+91.02-3-02,Restauração e conservação de lugares e prédios históricos,Comércio e serviços
+91.03-1-00,"Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental","Templos, igrejas e centros culturais"
 92.00-3-01,Casas de bingo,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 92.00-3-02,Exploração de apostas em corridas de cavalos,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 92.00-3-99,Exploração de jogos de azar e apostas não especificados anteriormente,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
-93.11-5-00,Gestão de instalações de esportes,
+93.11-5-00,Gestão de instalações de esportes,"Clubes recreativos, de lazer, esportivo e similares"
 93.12-3-00,"Clubes sociais, esportivos e similares","Clubes recreativos, de lazer, esportivo e similares"
-93.13-1-00,Atividades de condicionamento físico,
-93.19-1-01,Produção e promoção de eventos esportivos,
-93.19-1-99,Outras atividades esportivas não especificadas anteriormente,
+93.13-1-00,Atividades de condicionamento físico,"Clubes recreativos, de lazer, esportivo e similares"
+93.19-1-01,Produção e promoção de eventos esportivos,"Clubes recreativos, de lazer, esportivo e similares"
+93.19-1-99,Outras atividades esportivas não especificadas anteriormente,"Clubes recreativos, de lazer, esportivo e similares"
 93.21-2-00,Parques de diversão e parques temáticos,Parques de diversão
 93.29-8-01,"Discotecas, danceterias, salões de dança e similares","Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 93.29-8-02,Exploração de boliches,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 93.29-8-03,"Exploração de jogos de sinuca, bilhar e similares","Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
 93.29-8-04,Exploração de jogos eletrônicos recreativos,"Restaurantes, bares, tabacarias, casas noturnas, casa de jogos e similares"
-93.29-8-99,Outras atividades de recreação e lazer não especificadas anteriormente,
-94.11-1-00,Atividades de organizações associativas patronais e empresariais,
-94.12-0-01,Atividades de fiscalização profissional,
-94.12-0-99,Outras atividades associativas profissionais,
-94.20-1-00,Atividades de organizações sindicais,
-94.30-8-00,Atividades de associações de defesa de direitos sociais,
+93.29-8-99,Outras atividades de recreação e lazer não especificadas anteriormente,"Clubes recreativos, de lazer, esportivo e similares"
+94.11-1-00,Atividades de organizações associativas patronais e empresariais,"Templos, igrejas e centros culturais"
+94.12-0-01,Atividades de fiscalização profissional,"Templos, igrejas e centros culturais"
+94.12-0-99,Outras atividades associativas profissionais,"Templos, igrejas e centros culturais"
+94.20-1-00,Atividades de organizações sindicais,"Templos, igrejas e centros culturais"
+94.30-8-00,Atividades de associações de defesa de direitos sociais,"Templos, igrejas e centros culturais"
 94.91-0-00,Atividades de organizações religiosas ou filosóficas,"Templos, igrejas e centros culturais"
-94.92-8-00,Atividades de organizações políticas,
-94.93-6-00,Atividades de organizações associativas ligadas à cultura e à arte,
-94.99-5-00,Atividades associativas não especificadas anteriormente,
+94.92-8-00,Atividades de organizações políticas,"Templos, igrejas e centros culturais"
+94.93-6-00,Atividades de organizações associativas ligadas à cultura e à arte,"Templos, igrejas e centros culturais"
+94.99-5-00,Atividades associativas não especificadas anteriormente,"Templos, igrejas e centros culturais"
 95.11-8-00,Reparação e manutenção de computadores e de equipamentos periféricos,Comércio e serviços
 95.12-6-00,Reparação e manutenção de equipamentos de comunicação,Comércio e serviços
 95.21-5-00,Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico,Comércio e serviços
@@ -1330,4 +1330,4 @@ CÓDIGO,DENOMINAÇÃO ATIVIDADE,ATIVIDADE/ USO
 96.09-2-08,Higiene e embelezamento de animais domésticos,Comércio e serviços
 96.09-2-99,Outras atividades de serviços pessoais não especificadas anteriormente,Comércio e serviços
 97.00-5-00,Serviços domésticos,Comércio e serviços
-99.00-8-00,Organismos internacionais e outras instituições extraterritoriais,
+99.00-8-00,Organismos internacionais e outras instituições extraterritoriais,Governamental
