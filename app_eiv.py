@@ -120,9 +120,9 @@ try:
 
         
         menor_area_construida = tabela_verificacao.loc[::,['Ac > (m²)']].min()
-        menor_area_construida
+        #menor_area_construida
         menor_area_total = tabela_verificacao.loc[::,['At > (m²)']].min()
-        menor_area_total
+        #menor_area_total
      
         st.subheader('Todas as regras de EIV para o zoneamento:')
         tabela_anexoeiv = tabela_anexoeiv.merge(tabela_filtrada,left_on='ZONEAMENTO', right_on='nome')
